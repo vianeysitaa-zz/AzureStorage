@@ -25,7 +25,7 @@ namespace OpentecSoftekMentor
         {
             GetSecret();
 
-            //string connString = "DefaultEndpointsProtocol=https;AccountName=softektraining;AccountKey=ECDPy78Nw990HsPdnd8NEzudwTsSTXaYWINK/Yq2x7qIrLfb3mu0B0xaCV/qq1KOoMinfi2FcNxV29ZVSFOP/Q==;EndpointSuffix=core.windows.net;";
+            //string connString = "DefaultEndpointsProtocol=https;AccountName=softektraining;AccountKey=EndpointSuffix=core.windows.net;";
             string destContainer = "softektraining";
  
             CloudStorageAccount storageAccount = CloudStorageAccount.Parse(connectionString);
